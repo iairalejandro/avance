@@ -37,22 +37,13 @@ void EscalaMenor::print(){
     cout<<notas[k]<<endl;
     
     derecha(k);
-    tono(k);
-    cout<<notas[k]<<endl;
-
-    derecha(k);
     semitono(k);
     cout<<notas[k]<<endl;
-    
-    derecha(k);
-    tono(k);
-    cout<<notas[k]<<endl;
-    
 
     derecha(k);
     tono(k);
     cout<<notas[k]<<endl;
-
+    
     derecha(k);
     tono(k);
     cout<<notas[k]<<endl;
@@ -60,6 +51,15 @@ void EscalaMenor::print(){
 
     derecha(k);
     semitono(k);
+    cout<<notas[k]<<endl;
+
+    derecha(k);
+    tono(k);
+    cout<<notas[k]<<endl;
+    
+
+    derecha(k);
+    tono(k);
     cout<<notas[pos]<<endl;
     
     cout<<"_ _ _ _ _ _ _ _"<<endl;

@@ -66,19 +66,19 @@ void EscalaMenor::print(){
 
 };
 
-void EscalaMayor::printvec(){
-  for(int x=0;x<vec1.size();x++){
-    cout<<vec1[x]<<endl;
+void EscalaMenor::printvec(){
+  for(int x = 0; x < vec1.size(); x++){
+    cout << vec1[x] << endl;
   }
 }
 
 
-void EscalaMayor::printSonido(vector<Sonido*> f){
+void EscalaMenor::printSonido(vector<Sonido*> f){
 
-  for(int x=0;x<vec1.size();x++){
-    int j=vec1[x];
+  for(int x = 0; x < vec1.size(); x++){
+    int j = vec1[x];
     f[j]->getSonido();
   }
 
-  
+
 }
